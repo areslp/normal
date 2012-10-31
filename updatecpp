@@ -1,0 +1,11 @@
+#!/bin/sh
+cd cpp/features
+make
+cd ../../
+
+cd cpp/update_feature
+make
+cd ../../
+
+cp cpp/features/features .
+cp cpp/update_feature/update_feature .
